@@ -12,5 +12,5 @@ def my_collect(collection)
 end
 
 my_collect(collection_arr_list) do |container|
-  container.split(" ").first
+  container.split(" ").first.upcase
 end
