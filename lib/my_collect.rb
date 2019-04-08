@@ -8,7 +8,7 @@ def my_collect(collection)
     new_arr_collection << yield(collection[counter])
     counter += 1
   end
-  new_arr_collection
+    new_arr_collection
 end
 
 my_collect(collection_arr_list) do |container|
