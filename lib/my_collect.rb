@@ -1,14 +1,13 @@
-collection_arr = []
+collection_arr_list = []
 
-def collect(collection)
+def my_collect(collection)
   counter = 0
-  
+  new_arr_collection
   while counter < collection.length
-    yield(collection[counter])
+    new_arr_collection << yield(collection[counter])
+    counter += 1
   end
   collection
 end
 
-def my_collect
-  
-end
+my_collect(list) {|i| i.split(" ").first}
