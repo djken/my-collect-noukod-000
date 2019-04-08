@@ -11,6 +11,6 @@ def my_collect(collection)
   collection
 end
 
-my_collect(collection_arr_list) do |container| ''
+my_collect(collection_arr_list) do |container|
   container.split(" ").first
 end
