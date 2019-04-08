@@ -1,3 +1,5 @@
+collection_arr = []
+
 def collect(collection)
   counter = 0
   
@@ -7,3 +9,6 @@ def collect(collection)
   collection
 end
 
+def my_collect
+  
+end
