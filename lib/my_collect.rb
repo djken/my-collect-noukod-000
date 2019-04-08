@@ -10,4 +10,4 @@ def my_collect(collection)
   collection
 end
 
-my_collect(list) {|i| i.split(" ").first}
+my_collect(collection_arr_list) {|container| container.split(" ").first}
